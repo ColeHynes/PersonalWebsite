@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 
-var element = React.createElement('h1', {className: 'greeting'}, 'Hello, world!');
+var element = React.createElement('h1', {className: 'greeting'}, 'Testing Pipeline!');
 ReactDOM.render(element,
   document.getElementById('root')
 );
