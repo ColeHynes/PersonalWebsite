@@ -5,8 +5,9 @@ export default function Particle(props) {
     return(
         <div>
             <Particles 
-            width='100'
-            height='100'
+            width='100%'
+            height='100vh'
+            options={{fpsLimit:60}}
             params={{
                     "particles": {
                         "number": {
@@ -14,6 +15,9 @@ export default function Particle(props) {
                         },
                         "size": {
                             "value": 3
+                        },
+                        "move": {
+                            "speed": 3
                         }
                     },
                     "interactivity": {
